@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    width: 100%;
+    height: 90px;
+    background-color: #343a40;
+    border-top: 2px solid red;  
+}
+
+.container1 .row{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.col1.logo2{
+   text-align: center;
+   margin-top: 400px;
+   padding-right: 50px;
+}
+
+.col1.logo2 h1{
+    font-size: 60px;
+    color: white;
+   
+}
+
+.col1.logo2 i{
+    font-size: 40px;
+    padding-top: 20px;
+    
+}
+
+.col1.logo2 h4{
+    font-size: 25px;
+    padding-top: 30px;
+    color: white;
+}
+
+ul{
+    display: flex;
+}
+
+ .col-2.logo a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 20px;  
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-2.logo h1{
+    padding-right: 100px;
+    color: white;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1abc9c;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg
+    );
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: center;
+    background-position: 600px 200px;
+}
+
+
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.container2 .row{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top: 40px;
+  
+}
+
+.container2 .log{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container2 .log i{
+    padding-top: 20px;
+}
+
+.container3 .parag p{
+    
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+.container3 {
+    width: 100vw;
+    height: 500px;
+    background-color: #1abc9c;
+    padding-top: 50px;
+    margin-top: 100px;
+    
+}
+
+.container3 .row .col-1 h1,i{
+    font-size: 50px;
+    color: white;
+}
+
+.container3 .row .col-1{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.container3 .row p{
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.container3 .row{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.buton{
+    padding-top: 100px;
+    
+}
+
+
+
+button{
+    background-color: #1abc9c;
+    height: 60px;
+    width: 230px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.container3 .buton a i{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.container3 .buton a{
+ font-size: 20px;
+ text-align: center;
+ text-decoration: none;
+ color: white;
+ padding-top: 3px;
+}
+
+.container3 button:hover{
+    background-color: white;
+    
+}
+
+.container3 .buton a:hover{
+    color: black;
+}
+
+.container3 .buton i:hover{
+    color: black;
+}
+
+
+.container4{
+    padding-bottom: 30px;
+}
